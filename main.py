@@ -6,7 +6,7 @@ from sklearn.cluster import KMeans
 from sklearn.impute import SimpleImputer
 from sklearn.metrics import silhouette_score
 from scipy.optimize import curve_fit
-from scipy.stats import t
+from scipy.stats import t 
 
 
 # Function to load and clean data, then transpose
