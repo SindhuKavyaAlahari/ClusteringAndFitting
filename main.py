@@ -164,7 +164,7 @@ def perform_time_series_analysis(df , country , target_feature):
     plt.fill_between(future_years , lower_bound , upper_bound , color = 'red' , alpha = 0.2 ,
                      label = 'Confidence Interval (95%)')
     plt.xlabel('Year' , fontsize = 20)
-    plt.ylabel(f'{target_feature} - {country}' , fontsize = 20)
+    plt.ylabel(f'{target_feature} - {country}' , fontsize = 20) 
     plt.title(f'{target_feature} Prediction with Confidence Interval - {country}' , fontsize = 20)
     plt.legend()
     plt.show()
